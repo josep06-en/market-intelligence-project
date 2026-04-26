@@ -8,6 +8,9 @@ import type { AppData, DateRange } from './types';
 import { validateKPIs, validateTrends, validateInsights, validateProductMetrics, validateRecommendations } from './utils/validate';
 import { filterTrendsByDateRange, filterInsightsByDateRange, calculateKPIsForDateRange } from './utils/dateFilter';
 
+// Import embedded data for Vercel fallback
+import { embeddedData } from './data';
+
 function App() {
   const [rawData, setRawData] = useState<AppData>({
     kpis: null,
@@ -71,7 +74,18 @@ function App() {
         console.error('Detailed error:', err);
         console.error('Error type:', typeof err);
         console.error('Error message:', err instanceof Error ? err.message : String(err));
-        setError(err instanceof Error ? err.message : 'Unknown error occurred');
+        
+        // Fallback to embedded data for Vercel deployment
+        console.warn('Using embedded data fallback for Vercel deployment');
+        setRawData({
+          kpis: validateKPIs(embeddedData.kpis),
+          trends: validateTrends(embeddedData.trends),
+          insights: validateInsights(embeddedData.insights),
+          product_metrics: validateProductMetrics(embeddedData.product_metrics),
+          recommendations: validateRecommendations(embeddedData.recommendations)
+        });
+        
+        setError(null); // Clear error since we're using fallback
       } finally {
         setLoading(false);
       }
