@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { embeddedData } from './data';
 import type { AppData } from './types';
 import { validateKPIs, validateTrends, validateInsights, validateProductMetrics, validateRecommendations } from './utils/validate';
@@ -16,23 +16,21 @@ function App() {
     start: '2025-01-01',
     end: '2025-12-31'
   });
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   // Use embedded data for Vercel deployment
-  const [rawData, setRawData] = useState<AppData>({
+  const rawData: AppData = {
     kpis: validateKPIs(embeddedData.kpis),
     trends: validateTrends(embeddedData.trends),
     insights: validateInsights(embeddedData.insights),
     product_metrics: validateProductMetrics(embeddedData.product_metrics),
     recommendations: validateRecommendations(embeddedData.recommendations)
-  });
+  };
 
   // Calculate filtered data based on date range
   const filteredData = {
     kpis: rawData.trends.length > 0 ? calculateKPIsForDateRange(rawData.trends, dateRange) : null,
     trends: filterTrendsByDateRange(rawData.trends, dateRange),
-    insights: filterInsightsByDateRange(rawData.insights, dateRange),
+    insights: filterInsightsByDateRange(rawData.insights),
     product_metrics: rawData.product_metrics, // Not date-filtered for now
     recommendations: rawData.recommendations // Not date-filtered for now
   };

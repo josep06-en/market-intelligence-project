@@ -88,7 +88,7 @@ function App() {
   const filteredData = {
     kpis: data.trends.length > 0 ? calculateKPIsForDateRange(data.trends, dateRange) : null,
     trends: filterTrendsByDateRange(data.trends, dateRange),
-    insights: filterInsightsByDateRange(data.insights, dateRange),
+    insights: filterInsightsByDateRange(data.insights),
     product_metrics: data.product_metrics,
     recommendations: data.recommendations
   };

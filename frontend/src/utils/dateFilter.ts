@@ -12,11 +12,10 @@ export const filterTrendsByDateRange = (trends: TrendPoint[], dateRange: DateRan
   });
 };
 
-export const filterInsightsByDateRange = (insights: Insight[], dateRange: DateRange): Insight[] => {
-  if (!insights || insights.length === 0) return [];
-  
-  // For now, return all insights since they don't have specific dates
-  // In a real implementation, insights would have actual dates
+export const filterInsightsByDateRange = (insights: Insight[]): Insight[] => {
+  // Since insights have string affected_period, return all insights for now
+  // In a real implementation, you might parse the affected_period strings
+  // and filter based on the date range
   return insights;
 };
 

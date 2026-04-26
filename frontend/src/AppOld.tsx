@@ -32,7 +32,7 @@ function App() {
   const filteredData = {
     kpis: rawData.trends.length > 0 ? calculateKPIsForDateRange(rawData.trends, dateRange) : null,
     trends: filterTrendsByDateRange(rawData.trends, dateRange),
-    insights: filterInsightsByDateRange(rawData.insights, dateRange),
+    insights: filterInsightsByDateRange(rawData.insights),
     product_metrics: rawData.product_metrics, // Not date-filtered for now
     recommendations: rawData.recommendations // Not date-filtered for now
   };
