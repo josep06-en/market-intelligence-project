@@ -1,0 +1,272 @@
+[
+  {
+    "product_id": "PROD_001",
+    "product_name": "Cola Classic",
+    "categories": "water",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_002",
+    "product_name": "Orange Juice",
+    "categories": "water",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_003",
+    "product_name": "Mineral Water",
+    "categories": "functional",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_004",
+    "product_name": "Green Tea",
+    "categories": "energy_drinks",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_005",
+    "product_name": "Lemonade",
+    "categories": "functional",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_006",
+    "product_name": "Apple Juice",
+    "categories": "soft_drinks",
+    "brand": "BrandD"
+  },
+  {
+    "product_id": "PROD_007",
+    "product_name": "Sparkling Water",
+    "categories": "functional",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_008",
+    "product_name": "Energy Drink",
+    "categories": "energy_drinks",
+    "brand": "BrandD"
+  },
+  {
+    "product_id": "PROD_009",
+    "product_name": "Iced Coffee",
+    "categories": "juices",
+    "brand": "BrandC"
+  },
+  {
+    "product_id": "PROD_010",
+    "product_name": "Ginger Ale",
+    "categories": "water",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_011",
+    "product_name": "Grape Juice",
+    "categories": "energy_drinks",
+    "brand": "BrandC"
+  },
+  {
+    "product_id": "PROD_012",
+    "product_name": "Coconut Water",
+    "categories": "energy_drinks",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_013",
+    "product_name": "Sports Drink",
+    "categories": "functional",
+    "brand": "BrandE"
+  },
+  {
+    "product_id": "PROD_014",
+    "product_name": "Herbal Tea",
+    "categories": "water",
+    "brand": "BrandE"
+  },
+  {
+    "product_id": "PROD_015",
+    "product_name": "Tomato Juice",
+    "categories": "juices",
+    "brand": "BrandD"
+  },
+  {
+    "product_id": "PROD_016",
+    "product_name": "Pineapple Juice",
+    "categories": "functional",
+    "brand": "BrandC"
+  },
+  {
+    "product_id": "PROD_017",
+    "product_name": "Club Soda",
+    "categories": "soft_drinks",
+    "brand": "BrandB"
+  },
+  {
+    "product_id": "PROD_018",
+    "product_name": "Cherry Soda",
+    "categories": "water",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_019",
+    "product_name": "Peach Tea",
+    "categories": "energy_drinks",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_020",
+    "product_name": "Mango Juice",
+    "categories": "juices",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_021",
+    "product_name": "Lime Soda",
+    "categories": "energy_drinks",
+    "brand": "BrandE"
+  },
+  {
+    "product_id": "PROD_022",
+    "product_name": "Berry Blast",
+    "categories": "beverages",
+    "brand": "BrandB"
+  },
+  {
+    "product_id": "PROD_023",
+    "product_name": "Vanilla Shake",
+    "categories": "functional",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_024",
+    "product_name": "Chocolate Milk",
+    "categories": "functional",
+    "brand": "BrandD"
+  },
+  {
+    "product_id": "PROD_025",
+    "product_name": "Strawberry Smoothie",
+    "categories": "dairy",
+    "brand": "BrandE"
+  },
+  {
+    "product_id": "PROD_026",
+    "product_name": "Protein Drink",
+    "categories": "energy_drinks",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_027",
+    "product_name": "Vitamin Water",
+    "categories": "juices",
+    "brand": "BrandE"
+  },
+  {
+    "product_id": "PROD_028",
+    "product_name": "Kombucha",
+    "categories": "tea",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_029",
+    "product_name": "Cold Brew",
+    "categories": "functional",
+    "brand": "BrandE"
+  },
+  {
+    "product_id": "PROD_030",
+    "product_name": "Lemon Iced Tea",
+    "categories": "tea",
+    "brand": "BrandB"
+  },
+  {
+    "product_id": "PROD_031",
+    "product_name": "Root Beer",
+    "categories": "tea",
+    "brand": "BrandC"
+  },
+  {
+    "product_id": "PROD_032",
+    "product_name": "Grapefruit Soda",
+    "categories": "soft_drinks",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_033",
+    "product_name": "Peach Nectar",
+    "categories": "water",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_034",
+    "product_name": "Coconut Milk",
+    "categories": "dairy",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_035",
+    "product_name": "Almond Milk",
+    "categories": "functional",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_036",
+    "product_name": "Energy Shot",
+    "categories": "energy_drinks",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_037",
+    "product_name": "Electrolyte Drink",
+    "categories": "beverages",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_038",
+    "product_name": "Matcha Tea",
+    "categories": "water",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_039",
+    "product_name": "Chai Latte",
+    "categories": "soft_drinks",
+    "brand": "BrandC"
+  },
+  {
+    "product_id": "PROD_040",
+    "product_name": "Mint Tea",
+    "categories": "soft_drinks",
+    "brand": "PremiumCo"
+  },
+  {
+    "product_id": "PROD_041",
+    "product_name": "Pomegranate Juice",
+    "categories": "functional",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_042",
+    "product_name": "Cranberry Juice",
+    "categories": "soft_drinks",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_043",
+    "product_name": "Apple Cider",
+    "categories": "dairy",
+    "brand": "ValueBrand"
+  },
+  {
+    "product_id": "PROD_044",
+    "product_name": "Hot Chocolate",
+    "categories": "dairy",
+    "brand": "BrandA"
+  },
+  {
+    "product_id": "PROD_045",
+    "product_name": "Green Smoothie",
+    "categories": "dairy",
+    "brand": "PremiumCo"
+  }
+]
