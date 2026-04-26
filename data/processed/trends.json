@@ -1,0 +1,2192 @@
+[
+  {
+    "date": "2025-04-27",
+    "revenue": 5446.73,
+    "transactions": 9,
+    "avg_order_value": 605.19
+  },
+  {
+    "date": "2025-04-28",
+    "revenue": 8731.61,
+    "transactions": 12,
+    "avg_order_value": 727.63
+  },
+  {
+    "date": "2025-04-29",
+    "revenue": 5527.67,
+    "transactions": 12,
+    "avg_order_value": 460.64
+  },
+  {
+    "date": "2025-04-30",
+    "revenue": 5501.31,
+    "transactions": 10,
+    "avg_order_value": 550.13
+  },
+  {
+    "date": "2025-05-01",
+    "revenue": 2760.5,
+    "transactions": 7,
+    "avg_order_value": 394.36
+  },
+  {
+    "date": "2025-05-02",
+    "revenue": 277.24,
+    "transactions": 3,
+    "avg_order_value": 92.41
+  },
+  {
+    "date": "2025-05-03",
+    "revenue": 2836.85,
+    "transactions": 5,
+    "avg_order_value": 567.37
+  },
+  {
+    "date": "2025-05-04",
+    "revenue": 2124.6,
+    "transactions": 5,
+    "avg_order_value": 424.92
+  },
+  {
+    "date": "2025-05-05",
+    "revenue": 3726.72,
+    "transactions": 3,
+    "avg_order_value": 1242.24
+  },
+  {
+    "date": "2025-05-06",
+    "revenue": 4620.89,
+    "transactions": 8,
+    "avg_order_value": 577.61
+  },
+  {
+    "date": "2025-05-07",
+    "revenue": 7009.03,
+    "transactions": 6,
+    "avg_order_value": 1168.17
+  },
+  {
+    "date": "2025-05-08",
+    "revenue": 4602.73,
+    "transactions": 7,
+    "avg_order_value": 657.53
+  },
+  {
+    "date": "2025-05-09",
+    "revenue": 8249.37,
+    "transactions": 12,
+    "avg_order_value": 687.45
+  },
+  {
+    "date": "2025-05-10",
+    "revenue": 1543.34,
+    "transactions": 4,
+    "avg_order_value": 385.83
+  },
+  {
+    "date": "2025-05-11",
+    "revenue": 2982.25,
+    "transactions": 4,
+    "avg_order_value": 745.56
+  },
+  {
+    "date": "2025-05-12",
+    "revenue": 3346.18,
+    "transactions": 5,
+    "avg_order_value": 669.24
+  },
+  {
+    "date": "2025-05-13",
+    "revenue": 1200.15,
+    "transactions": 3,
+    "avg_order_value": 400.05
+  },
+  {
+    "date": "2025-05-14",
+    "revenue": 6606.51,
+    "transactions": 12,
+    "avg_order_value": 550.54
+  },
+  {
+    "date": "2025-05-15",
+    "revenue": 4144.38,
+    "transactions": 5,
+    "avg_order_value": 828.88
+  },
+  {
+    "date": "2025-05-16",
+    "revenue": 5046.31,
+    "transactions": 8,
+    "avg_order_value": 630.79
+  },
+  {
+    "date": "2025-05-17",
+    "revenue": 3951.57,
+    "transactions": 7,
+    "avg_order_value": 564.51
+  },
+  {
+    "date": "2025-05-18",
+    "revenue": 587.41,
+    "transactions": 3,
+    "avg_order_value": 195.8
+  },
+  {
+    "date": "2025-05-19",
+    "revenue": 3780.28,
+    "transactions": 6,
+    "avg_order_value": 630.05
+  },
+  {
+    "date": "2025-05-20",
+    "revenue": 3048.84,
+    "transactions": 5,
+    "avg_order_value": 609.77
+  },
+  {
+    "date": "2025-05-21",
+    "revenue": 3691.1,
+    "transactions": 11,
+    "avg_order_value": 335.55
+  },
+  {
+    "date": "2025-05-22",
+    "revenue": 3882.72,
+    "transactions": 6,
+    "avg_order_value": 647.12
+  },
+  {
+    "date": "2025-05-23",
+    "revenue": 9340.63,
+    "transactions": 12,
+    "avg_order_value": 778.39
+  },
+  {
+    "date": "2025-05-24",
+    "revenue": 7056.45,
+    "transactions": 12,
+    "avg_order_value": 588.04
+  },
+  {
+    "date": "2025-05-25",
+    "revenue": 5736.79,
+    "transactions": 8,
+    "avg_order_value": 717.1
+  },
+  {
+    "date": "2025-05-26",
+    "revenue": 2134.12,
+    "transactions": 3,
+    "avg_order_value": 711.37
+  },
+  {
+    "date": "2025-05-27",
+    "revenue": 3300.58,
+    "transactions": 6,
+    "avg_order_value": 550.1
+  },
+  {
+    "date": "2025-05-28",
+    "revenue": 3605.43,
+    "transactions": 8,
+    "avg_order_value": 450.68
+  },
+  {
+    "date": "2025-05-29",
+    "revenue": 1807.22,
+    "transactions": 4,
+    "avg_order_value": 451.8
+  },
+  {
+    "date": "2025-05-30",
+    "revenue": 4424.97,
+    "transactions": 8,
+    "avg_order_value": 553.12
+  },
+  {
+    "date": "2025-05-31",
+    "revenue": 6638.25,
+    "transactions": 12,
+    "avg_order_value": 553.19
+  },
+  {
+    "date": "2025-06-01",
+    "revenue": 5696.2,
+    "transactions": 12,
+    "avg_order_value": 474.68
+  },
+  {
+    "date": "2025-06-02",
+    "revenue": 6107.0,
+    "transactions": 11,
+    "avg_order_value": 555.18
+  },
+  {
+    "date": "2025-06-03",
+    "revenue": 2320.89,
+    "transactions": 5,
+    "avg_order_value": 464.18
+  },
+  {
+    "date": "2025-06-04",
+    "revenue": 3094.0,
+    "transactions": 6,
+    "avg_order_value": 515.67
+  },
+  {
+    "date": "2025-06-05",
+    "revenue": 1609.23,
+    "transactions": 7,
+    "avg_order_value": 229.89
+  },
+  {
+    "date": "2025-06-06",
+    "revenue": 2494.72,
+    "transactions": 4,
+    "avg_order_value": 623.68
+  },
+  {
+    "date": "2025-06-07",
+    "revenue": 7647.66,
+    "transactions": 8,
+    "avg_order_value": 955.96
+  },
+  {
+    "date": "2025-06-08",
+    "revenue": 4329.49,
+    "transactions": 12,
+    "avg_order_value": 360.79
+  },
+  {
+    "date": "2025-06-09",
+    "revenue": 3588.2,
+    "transactions": 5,
+    "avg_order_value": 717.64
+  },
+  {
+    "date": "2025-06-10",
+    "revenue": 1622.44,
+    "transactions": 6,
+    "avg_order_value": 270.41
+  },
+  {
+    "date": "2025-06-11",
+    "revenue": 2423.02,
+    "transactions": 3,
+    "avg_order_value": 807.67
+  },
+  {
+    "date": "2025-06-12",
+    "revenue": 4630.62,
+    "transactions": 12,
+    "avg_order_value": 385.88
+  },
+  {
+    "date": "2025-06-13",
+    "revenue": 5900.74,
+    "transactions": 9,
+    "avg_order_value": 655.64
+  },
+  {
+    "date": "2025-06-14",
+    "revenue": 1047.91,
+    "transactions": 5,
+    "avg_order_value": 209.58
+  },
+  {
+    "date": "2025-06-15",
+    "revenue": 3492.29,
+    "transactions": 3,
+    "avg_order_value": 1164.1
+  },
+  {
+    "date": "2025-06-16",
+    "revenue": 1967.35,
+    "transactions": 4,
+    "avg_order_value": 491.84
+  },
+  {
+    "date": "2025-06-17",
+    "revenue": 3271.8,
+    "transactions": 4,
+    "avg_order_value": 817.95
+  },
+  {
+    "date": "2025-06-18",
+    "revenue": 6540.5,
+    "transactions": 8,
+    "avg_order_value": 817.56
+  },
+  {
+    "date": "2025-06-19",
+    "revenue": 7338.84,
+    "transactions": 11,
+    "avg_order_value": 667.17
+  },
+  {
+    "date": "2025-06-20",
+    "revenue": 2867.75,
+    "transactions": 5,
+    "avg_order_value": 573.55
+  },
+  {
+    "date": "2025-06-21",
+    "revenue": 2217.42,
+    "transactions": 3,
+    "avg_order_value": 739.14
+  },
+  {
+    "date": "2025-06-22",
+    "revenue": 2420.59,
+    "transactions": 3,
+    "avg_order_value": 806.86
+  },
+  {
+    "date": "2025-06-23",
+    "revenue": 5807.81,
+    "transactions": 9,
+    "avg_order_value": 645.31
+  },
+  {
+    "date": "2025-06-24",
+    "revenue": 1425.16,
+    "transactions": 3,
+    "avg_order_value": 475.05
+  },
+  {
+    "date": "2025-06-25",
+    "revenue": 4476.13,
+    "transactions": 3,
+    "avg_order_value": 1492.04
+  },
+  {
+    "date": "2025-06-26",
+    "revenue": 1430.84,
+    "transactions": 3,
+    "avg_order_value": 476.95
+  },
+  {
+    "date": "2025-06-27",
+    "revenue": 4870.75,
+    "transactions": 4,
+    "avg_order_value": 1217.69
+  },
+  {
+    "date": "2025-06-28",
+    "revenue": 3739.69,
+    "transactions": 5,
+    "avg_order_value": 747.94
+  },
+  {
+    "date": "2025-06-29",
+    "revenue": 4722.03,
+    "transactions": 8,
+    "avg_order_value": 590.25
+  },
+  {
+    "date": "2025-06-30",
+    "revenue": 3106.76,
+    "transactions": 7,
+    "avg_order_value": 443.82
+  },
+  {
+    "date": "2025-07-01",
+    "revenue": 5475.98,
+    "transactions": 11,
+    "avg_order_value": 497.82
+  },
+  {
+    "date": "2025-07-02",
+    "revenue": 3834.12,
+    "transactions": 4,
+    "avg_order_value": 958.53
+  },
+  {
+    "date": "2025-07-03",
+    "revenue": 4873.83,
+    "transactions": 9,
+    "avg_order_value": 541.54
+  },
+  {
+    "date": "2025-07-04",
+    "revenue": 6902.99,
+    "transactions": 12,
+    "avg_order_value": 575.25
+  },
+  {
+    "date": "2025-07-05",
+    "revenue": 1771.37,
+    "transactions": 4,
+    "avg_order_value": 442.84
+  },
+  {
+    "date": "2025-07-06",
+    "revenue": 1112.22,
+    "transactions": 4,
+    "avg_order_value": 278.05
+  },
+  {
+    "date": "2025-07-07",
+    "revenue": 9168.22,
+    "transactions": 10,
+    "avg_order_value": 916.82
+  },
+  {
+    "date": "2025-07-08",
+    "revenue": 6595.51,
+    "transactions": 10,
+    "avg_order_value": 659.55
+  },
+  {
+    "date": "2025-07-09",
+    "revenue": 2818.08,
+    "transactions": 4,
+    "avg_order_value": 704.52
+  },
+  {
+    "date": "2025-07-10",
+    "revenue": 4096.49,
+    "transactions": 7,
+    "avg_order_value": 585.21
+  },
+  {
+    "date": "2025-07-11",
+    "revenue": 3666.54,
+    "transactions": 8,
+    "avg_order_value": 458.32
+  },
+  {
+    "date": "2025-07-12",
+    "revenue": 3362.82,
+    "transactions": 7,
+    "avg_order_value": 480.4
+  },
+  {
+    "date": "2025-07-13",
+    "revenue": 4625.38,
+    "transactions": 11,
+    "avg_order_value": 420.49
+  },
+  {
+    "date": "2025-07-14",
+    "revenue": 590.88,
+    "transactions": 4,
+    "avg_order_value": 147.72
+  },
+  {
+    "date": "2025-07-15",
+    "revenue": 2606.09,
+    "transactions": 5,
+    "avg_order_value": 521.22
+  },
+  {
+    "date": "2025-07-16",
+    "revenue": 3329.18,
+    "transactions": 6,
+    "avg_order_value": 554.86
+  },
+  {
+    "date": "2025-07-17",
+    "revenue": 4039.03,
+    "transactions": 9,
+    "avg_order_value": 448.78
+  },
+  {
+    "date": "2025-07-18",
+    "revenue": 10536.33,
+    "transactions": 12,
+    "avg_order_value": 878.03
+  },
+  {
+    "date": "2025-07-19",
+    "revenue": 6607.97,
+    "transactions": 11,
+    "avg_order_value": 600.72
+  },
+  {
+    "date": "2025-07-20",
+    "revenue": 2916.64,
+    "transactions": 5,
+    "avg_order_value": 583.33
+  },
+  {
+    "date": "2025-07-21",
+    "revenue": 2254.92,
+    "transactions": 5,
+    "avg_order_value": 450.98
+  },
+  {
+    "date": "2025-07-22",
+    "revenue": 7709.95,
+    "transactions": 11,
+    "avg_order_value": 700.9
+  },
+  {
+    "date": "2025-07-23",
+    "revenue": 3440.31,
+    "transactions": 7,
+    "avg_order_value": 491.47
+  },
+  {
+    "date": "2025-07-24",
+    "revenue": 3163.84,
+    "transactions": 9,
+    "avg_order_value": 351.54
+  },
+  {
+    "date": "2025-07-25",
+    "revenue": 6224.7,
+    "transactions": 6,
+    "avg_order_value": 1037.45
+  },
+  {
+    "date": "2025-07-26",
+    "revenue": 3041.35,
+    "transactions": 8,
+    "avg_order_value": 380.17
+  },
+  {
+    "date": "2025-07-27",
+    "revenue": 4078.96,
+    "transactions": 6,
+    "avg_order_value": 679.83
+  },
+  {
+    "date": "2025-07-28",
+    "revenue": 3646.11,
+    "transactions": 7,
+    "avg_order_value": 520.87
+  },
+  {
+    "date": "2025-07-29",
+    "revenue": 3393.09,
+    "transactions": 6,
+    "avg_order_value": 565.51
+  },
+  {
+    "date": "2025-07-30",
+    "revenue": 8811.67,
+    "transactions": 12,
+    "avg_order_value": 734.31
+  },
+  {
+    "date": "2025-07-31",
+    "revenue": 4182.68,
+    "transactions": 8,
+    "avg_order_value": 522.84
+  },
+  {
+    "date": "2025-08-01",
+    "revenue": 1504.11,
+    "transactions": 4,
+    "avg_order_value": 376.03
+  },
+  {
+    "date": "2025-08-02",
+    "revenue": 8409.45,
+    "transactions": 11,
+    "avg_order_value": 764.5
+  },
+  {
+    "date": "2025-08-03",
+    "revenue": 7226.23,
+    "transactions": 12,
+    "avg_order_value": 602.19
+  },
+  {
+    "date": "2025-08-04",
+    "revenue": 4676.62,
+    "transactions": 6,
+    "avg_order_value": 779.44
+  },
+  {
+    "date": "2025-08-05",
+    "revenue": 2764.88,
+    "transactions": 5,
+    "avg_order_value": 552.98
+  },
+  {
+    "date": "2025-08-06",
+    "revenue": 4400.86,
+    "transactions": 12,
+    "avg_order_value": 366.74
+  },
+  {
+    "date": "2025-08-07",
+    "revenue": 4591.98,
+    "transactions": 7,
+    "avg_order_value": 656.0
+  },
+  {
+    "date": "2025-08-08",
+    "revenue": 2641.81,
+    "transactions": 7,
+    "avg_order_value": 377.4
+  },
+  {
+    "date": "2025-08-09",
+    "revenue": 4827.54,
+    "transactions": 7,
+    "avg_order_value": 689.65
+  },
+  {
+    "date": "2025-08-10",
+    "revenue": 1402.12,
+    "transactions": 3,
+    "avg_order_value": 467.37
+  },
+  {
+    "date": "2025-08-11",
+    "revenue": 7164.22,
+    "transactions": 8,
+    "avg_order_value": 895.53
+  },
+  {
+    "date": "2025-08-12",
+    "revenue": 6917.28,
+    "transactions": 12,
+    "avg_order_value": 576.44
+  },
+  {
+    "date": "2025-08-13",
+    "revenue": 5666.55,
+    "transactions": 7,
+    "avg_order_value": 809.51
+  },
+  {
+    "date": "2025-08-14",
+    "revenue": 647.28,
+    "transactions": 3,
+    "avg_order_value": 215.76
+  },
+  {
+    "date": "2025-08-15",
+    "revenue": 7616.59,
+    "transactions": 11,
+    "avg_order_value": 692.42
+  },
+  {
+    "date": "2025-08-16",
+    "revenue": 3264.31,
+    "transactions": 8,
+    "avg_order_value": 408.04
+  },
+  {
+    "date": "2025-08-17",
+    "revenue": 4653.76,
+    "transactions": 7,
+    "avg_order_value": 664.82
+  },
+  {
+    "date": "2025-08-18",
+    "revenue": 7449.96,
+    "transactions": 11,
+    "avg_order_value": 677.27
+  },
+  {
+    "date": "2025-08-19",
+    "revenue": 6255.84,
+    "transactions": 11,
+    "avg_order_value": 568.71
+  },
+  {
+    "date": "2025-08-20",
+    "revenue": 7074.11,
+    "transactions": 11,
+    "avg_order_value": 643.1
+  },
+  {
+    "date": "2025-08-21",
+    "revenue": 3150.62,
+    "transactions": 5,
+    "avg_order_value": 630.12
+  },
+  {
+    "date": "2025-08-22",
+    "revenue": 6698.86,
+    "transactions": 11,
+    "avg_order_value": 608.99
+  },
+  {
+    "date": "2025-08-23",
+    "revenue": 3447.03,
+    "transactions": 8,
+    "avg_order_value": 430.88
+  },
+  {
+    "date": "2025-08-24",
+    "revenue": 2808.89,
+    "transactions": 6,
+    "avg_order_value": 468.15
+  },
+  {
+    "date": "2025-08-25",
+    "revenue": 2899.52,
+    "transactions": 4,
+    "avg_order_value": 724.88
+  },
+  {
+    "date": "2025-08-26",
+    "revenue": 8179.56,
+    "transactions": 10,
+    "avg_order_value": 817.96
+  },
+  {
+    "date": "2025-08-27",
+    "revenue": 3857.28,
+    "transactions": 6,
+    "avg_order_value": 642.88
+  },
+  {
+    "date": "2025-08-28",
+    "revenue": 1994.1,
+    "transactions": 5,
+    "avg_order_value": 398.82
+  },
+  {
+    "date": "2025-08-29",
+    "revenue": 3677.2,
+    "transactions": 5,
+    "avg_order_value": 735.44
+  },
+  {
+    "date": "2025-08-30",
+    "revenue": 8682.78,
+    "transactions": 11,
+    "avg_order_value": 789.34
+  },
+  {
+    "date": "2025-08-31",
+    "revenue": 3122.51,
+    "transactions": 4,
+    "avg_order_value": 780.63
+  },
+  {
+    "date": "2025-09-01",
+    "revenue": 3437.08,
+    "transactions": 5,
+    "avg_order_value": 687.42
+  },
+  {
+    "date": "2025-09-02",
+    "revenue": 4128.33,
+    "transactions": 8,
+    "avg_order_value": 516.04
+  },
+  {
+    "date": "2025-09-03",
+    "revenue": 5848.78,
+    "transactions": 12,
+    "avg_order_value": 487.4
+  },
+  {
+    "date": "2025-09-04",
+    "revenue": 4654.07,
+    "transactions": 7,
+    "avg_order_value": 664.87
+  },
+  {
+    "date": "2025-09-05",
+    "revenue": 5270.05,
+    "transactions": 11,
+    "avg_order_value": 479.1
+  },
+  {
+    "date": "2025-09-06",
+    "revenue": 10109.75,
+    "transactions": 11,
+    "avg_order_value": 919.07
+  },
+  {
+    "date": "2025-09-07",
+    "revenue": 9893.78,
+    "transactions": 11,
+    "avg_order_value": 899.43
+  },
+  {
+    "date": "2025-09-08",
+    "revenue": 2340.7,
+    "transactions": 3,
+    "avg_order_value": 780.23
+  },
+  {
+    "date": "2025-09-09",
+    "revenue": 7351.03,
+    "transactions": 11,
+    "avg_order_value": 668.28
+  },
+  {
+    "date": "2025-09-10",
+    "revenue": 2190.2,
+    "transactions": 3,
+    "avg_order_value": 730.07
+  },
+  {
+    "date": "2025-09-11",
+    "revenue": 2049.79,
+    "transactions": 5,
+    "avg_order_value": 409.96
+  },
+  {
+    "date": "2025-09-12",
+    "revenue": 4532.54,
+    "transactions": 8,
+    "avg_order_value": 566.57
+  },
+  {
+    "date": "2025-09-13",
+    "revenue": 918.85,
+    "transactions": 3,
+    "avg_order_value": 306.28
+  },
+  {
+    "date": "2025-09-14",
+    "revenue": 4711.47,
+    "transactions": 9,
+    "avg_order_value": 523.5
+  },
+  {
+    "date": "2025-09-15",
+    "revenue": 3599.78,
+    "transactions": 5,
+    "avg_order_value": 719.96
+  },
+  {
+    "date": "2025-09-16",
+    "revenue": 4290.49,
+    "transactions": 7,
+    "avg_order_value": 612.93
+  },
+  {
+    "date": "2025-09-17",
+    "revenue": 4069.07,
+    "transactions": 8,
+    "avg_order_value": 508.63
+  },
+  {
+    "date": "2025-09-18",
+    "revenue": 8834.59,
+    "transactions": 12,
+    "avg_order_value": 736.22
+  },
+  {
+    "date": "2025-09-19",
+    "revenue": 2994.88,
+    "transactions": 5,
+    "avg_order_value": 598.98
+  },
+  {
+    "date": "2025-09-20",
+    "revenue": 457.08,
+    "transactions": 3,
+    "avg_order_value": 152.36
+  },
+  {
+    "date": "2025-09-21",
+    "revenue": 2615.46,
+    "transactions": 3,
+    "avg_order_value": 871.82
+  },
+  {
+    "date": "2025-09-22",
+    "revenue": 5834.86,
+    "transactions": 6,
+    "avg_order_value": 972.48
+  },
+  {
+    "date": "2025-09-23",
+    "revenue": 4914.97,
+    "transactions": 10,
+    "avg_order_value": 491.5
+  },
+  {
+    "date": "2025-09-24",
+    "revenue": 3116.79,
+    "transactions": 5,
+    "avg_order_value": 623.36
+  },
+  {
+    "date": "2025-09-25",
+    "revenue": 7731.13,
+    "transactions": 12,
+    "avg_order_value": 644.26
+  },
+  {
+    "date": "2025-09-26",
+    "revenue": 3612.26,
+    "transactions": 6,
+    "avg_order_value": 602.04
+  },
+  {
+    "date": "2025-09-27",
+    "revenue": 4026.52,
+    "transactions": 9,
+    "avg_order_value": 447.39
+  },
+  {
+    "date": "2025-09-28",
+    "revenue": 5156.23,
+    "transactions": 10,
+    "avg_order_value": 515.62
+  },
+  {
+    "date": "2025-09-29",
+    "revenue": 4492.39,
+    "transactions": 7,
+    "avg_order_value": 641.77
+  },
+  {
+    "date": "2025-09-30",
+    "revenue": 4707.74,
+    "transactions": 6,
+    "avg_order_value": 784.62
+  },
+  {
+    "date": "2025-10-01",
+    "revenue": 10341.09,
+    "transactions": 11,
+    "avg_order_value": 940.1
+  },
+  {
+    "date": "2025-10-02",
+    "revenue": 1780.2,
+    "transactions": 6,
+    "avg_order_value": 296.7
+  },
+  {
+    "date": "2025-10-03",
+    "revenue": 4363.26,
+    "transactions": 5,
+    "avg_order_value": 872.65
+  },
+  {
+    "date": "2025-10-04",
+    "revenue": 3741.36,
+    "transactions": 8,
+    "avg_order_value": 467.67
+  },
+  {
+    "date": "2025-10-05",
+    "revenue": 2244.3,
+    "transactions": 6,
+    "avg_order_value": 374.05
+  },
+  {
+    "date": "2025-10-06",
+    "revenue": 1454.4,
+    "transactions": 3,
+    "avg_order_value": 484.8
+  },
+  {
+    "date": "2025-10-07",
+    "revenue": 5959.68,
+    "transactions": 11,
+    "avg_order_value": 541.79
+  },
+  {
+    "date": "2025-10-08",
+    "revenue": 9399.88,
+    "transactions": 11,
+    "avg_order_value": 854.53
+  },
+  {
+    "date": "2025-10-09",
+    "revenue": 5378.91,
+    "transactions": 6,
+    "avg_order_value": 896.49
+  },
+  {
+    "date": "2025-10-10",
+    "revenue": 2463.74,
+    "transactions": 5,
+    "avg_order_value": 492.75
+  },
+  {
+    "date": "2025-10-11",
+    "revenue": 3415.35,
+    "transactions": 7,
+    "avg_order_value": 487.91
+  },
+  {
+    "date": "2025-10-12",
+    "revenue": 1134.29,
+    "transactions": 4,
+    "avg_order_value": 283.57
+  },
+  {
+    "date": "2025-10-13",
+    "revenue": 3150.42,
+    "transactions": 7,
+    "avg_order_value": 450.06
+  },
+  {
+    "date": "2025-10-14",
+    "revenue": 3873.18,
+    "transactions": 9,
+    "avg_order_value": 430.35
+  },
+  {
+    "date": "2025-10-15",
+    "revenue": 5646.1,
+    "transactions": 11,
+    "avg_order_value": 513.28
+  },
+  {
+    "date": "2025-10-16",
+    "revenue": 3837.38,
+    "transactions": 6,
+    "avg_order_value": 639.56
+  },
+  {
+    "date": "2025-10-17",
+    "revenue": 3999.07,
+    "transactions": 5,
+    "avg_order_value": 799.81
+  },
+  {
+    "date": "2025-10-18",
+    "revenue": 7514.06,
+    "transactions": 11,
+    "avg_order_value": 683.1
+  },
+  {
+    "date": "2025-10-19",
+    "revenue": 4301.67,
+    "transactions": 10,
+    "avg_order_value": 430.17
+  },
+  {
+    "date": "2025-10-20",
+    "revenue": 4731.69,
+    "transactions": 9,
+    "avg_order_value": 525.74
+  },
+  {
+    "date": "2025-10-21",
+    "revenue": 4955.06,
+    "transactions": 8,
+    "avg_order_value": 619.38
+  },
+  {
+    "date": "2025-10-22",
+    "revenue": 2759.0,
+    "transactions": 4,
+    "avg_order_value": 689.75
+  },
+  {
+    "date": "2025-10-23",
+    "revenue": 2022.79,
+    "transactions": 4,
+    "avg_order_value": 505.7
+  },
+  {
+    "date": "2025-10-24",
+    "revenue": 4814.74,
+    "transactions": 6,
+    "avg_order_value": 802.46
+  },
+  {
+    "date": "2025-10-25",
+    "revenue": 1973.82,
+    "transactions": 4,
+    "avg_order_value": 493.45
+  },
+  {
+    "date": "2025-10-26",
+    "revenue": 5641.7,
+    "transactions": 10,
+    "avg_order_value": 564.17
+  },
+  {
+    "date": "2025-10-27",
+    "revenue": 7189.83,
+    "transactions": 9,
+    "avg_order_value": 798.87
+  },
+  {
+    "date": "2025-10-28",
+    "revenue": 2256.36,
+    "transactions": 5,
+    "avg_order_value": 451.27
+  },
+  {
+    "date": "2025-10-29",
+    "revenue": 1668.54,
+    "transactions": 3,
+    "avg_order_value": 556.18
+  },
+  {
+    "date": "2025-10-30",
+    "revenue": 4444.68,
+    "transactions": 10,
+    "avg_order_value": 444.47
+  },
+  {
+    "date": "2025-10-31",
+    "revenue": 10088.95,
+    "transactions": 11,
+    "avg_order_value": 917.18
+  },
+  {
+    "date": "2025-11-01",
+    "revenue": 4878.07,
+    "transactions": 6,
+    "avg_order_value": 813.01
+  },
+  {
+    "date": "2025-11-02",
+    "revenue": 3733.8,
+    "transactions": 3,
+    "avg_order_value": 1244.6
+  },
+  {
+    "date": "2025-11-03",
+    "revenue": 4981.14,
+    "transactions": 9,
+    "avg_order_value": 553.46
+  },
+  {
+    "date": "2025-11-04",
+    "revenue": 4940.06,
+    "transactions": 6,
+    "avg_order_value": 823.34
+  },
+  {
+    "date": "2025-11-05",
+    "revenue": 2556.17,
+    "transactions": 3,
+    "avg_order_value": 852.06
+  },
+  {
+    "date": "2025-11-06",
+    "revenue": 3531.45,
+    "transactions": 5,
+    "avg_order_value": 706.29
+  },
+  {
+    "date": "2025-11-07",
+    "revenue": 2961.29,
+    "transactions": 6,
+    "avg_order_value": 493.55
+  },
+  {
+    "date": "2025-11-08",
+    "revenue": 4997.88,
+    "transactions": 5,
+    "avg_order_value": 999.58
+  },
+  {
+    "date": "2025-11-09",
+    "revenue": 6668.66,
+    "transactions": 12,
+    "avg_order_value": 555.72
+  },
+  {
+    "date": "2025-11-10",
+    "revenue": 2843.92,
+    "transactions": 5,
+    "avg_order_value": 568.78
+  },
+  {
+    "date": "2025-11-11",
+    "revenue": 7659.61,
+    "transactions": 11,
+    "avg_order_value": 696.33
+  },
+  {
+    "date": "2025-11-12",
+    "revenue": 3109.18,
+    "transactions": 11,
+    "avg_order_value": 282.65
+  },
+  {
+    "date": "2025-11-13",
+    "revenue": 1991.34,
+    "transactions": 3,
+    "avg_order_value": 663.78
+  },
+  {
+    "date": "2025-11-14",
+    "revenue": 1987.72,
+    "transactions": 4,
+    "avg_order_value": 496.93
+  },
+  {
+    "date": "2025-11-15",
+    "revenue": 3900.79,
+    "transactions": 8,
+    "avg_order_value": 487.6
+  },
+  {
+    "date": "2025-11-16",
+    "revenue": 5864.3,
+    "transactions": 8,
+    "avg_order_value": 733.04
+  },
+  {
+    "date": "2025-11-17",
+    "revenue": 4844.35,
+    "transactions": 4,
+    "avg_order_value": 1211.09
+  },
+  {
+    "date": "2025-11-18",
+    "revenue": 5769.56,
+    "transactions": 11,
+    "avg_order_value": 524.51
+  },
+  {
+    "date": "2025-11-19",
+    "revenue": 3211.45,
+    "transactions": 5,
+    "avg_order_value": 642.29
+  },
+  {
+    "date": "2025-11-20",
+    "revenue": 4325.12,
+    "transactions": 8,
+    "avg_order_value": 540.64
+  },
+  {
+    "date": "2025-11-21",
+    "revenue": 2488.9,
+    "transactions": 3,
+    "avg_order_value": 829.63
+  },
+  {
+    "date": "2025-11-22",
+    "revenue": 2165.74,
+    "transactions": 4,
+    "avg_order_value": 541.44
+  },
+  {
+    "date": "2025-11-23",
+    "revenue": 5489.22,
+    "transactions": 6,
+    "avg_order_value": 914.87
+  },
+  {
+    "date": "2025-11-24",
+    "revenue": 3508.54,
+    "transactions": 7,
+    "avg_order_value": 501.22
+  },
+  {
+    "date": "2025-11-25",
+    "revenue": 5971.14,
+    "transactions": 8,
+    "avg_order_value": 746.39
+  },
+  {
+    "date": "2025-11-26",
+    "revenue": 2178.83,
+    "transactions": 4,
+    "avg_order_value": 544.71
+  },
+  {
+    "date": "2025-11-27",
+    "revenue": 4811.64,
+    "transactions": 12,
+    "avg_order_value": 400.97
+  },
+  {
+    "date": "2025-11-28",
+    "revenue": 3284.12,
+    "transactions": 5,
+    "avg_order_value": 656.82
+  },
+  {
+    "date": "2025-11-29",
+    "revenue": 1170.88,
+    "transactions": 5,
+    "avg_order_value": 234.18
+  },
+  {
+    "date": "2025-11-30",
+    "revenue": 6060.97,
+    "transactions": 12,
+    "avg_order_value": 505.08
+  },
+  {
+    "date": "2025-12-01",
+    "revenue": 4417.11,
+    "transactions": 6,
+    "avg_order_value": 736.19
+  },
+  {
+    "date": "2025-12-02",
+    "revenue": 4722.51,
+    "transactions": 7,
+    "avg_order_value": 674.64
+  },
+  {
+    "date": "2025-12-03",
+    "revenue": 3900.79,
+    "transactions": 7,
+    "avg_order_value": 557.26
+  },
+  {
+    "date": "2025-12-04",
+    "revenue": 3294.08,
+    "transactions": 8,
+    "avg_order_value": 411.76
+  },
+  {
+    "date": "2025-12-05",
+    "revenue": 5156.08,
+    "transactions": 9,
+    "avg_order_value": 572.9
+  },
+  {
+    "date": "2025-12-06",
+    "revenue": 8669.44,
+    "transactions": 11,
+    "avg_order_value": 788.13
+  },
+  {
+    "date": "2025-12-07",
+    "revenue": 2191.7,
+    "transactions": 4,
+    "avg_order_value": 547.93
+  },
+  {
+    "date": "2025-12-08",
+    "revenue": 3889.83,
+    "transactions": 8,
+    "avg_order_value": 486.23
+  },
+  {
+    "date": "2025-12-09",
+    "revenue": 2925.49,
+    "transactions": 5,
+    "avg_order_value": 585.1
+  },
+  {
+    "date": "2025-12-10",
+    "revenue": 8110.66,
+    "transactions": 12,
+    "avg_order_value": 675.89
+  },
+  {
+    "date": "2025-12-11",
+    "revenue": 6988.47,
+    "transactions": 8,
+    "avg_order_value": 873.56
+  },
+  {
+    "date": "2025-12-12",
+    "revenue": 6532.91,
+    "transactions": 12,
+    "avg_order_value": 544.41
+  },
+  {
+    "date": "2025-12-13",
+    "revenue": 3743.22,
+    "transactions": 7,
+    "avg_order_value": 534.75
+  },
+  {
+    "date": "2025-12-14",
+    "revenue": 5713.66,
+    "transactions": 6,
+    "avg_order_value": 952.28
+  },
+  {
+    "date": "2025-12-15",
+    "revenue": 1085.44,
+    "transactions": 4,
+    "avg_order_value": 271.36
+  },
+  {
+    "date": "2025-12-16",
+    "revenue": 6594.68,
+    "transactions": 8,
+    "avg_order_value": 824.33
+  },
+  {
+    "date": "2025-12-17",
+    "revenue": 3467.55,
+    "transactions": 8,
+    "avg_order_value": 433.44
+  },
+  {
+    "date": "2025-12-18",
+    "revenue": 7315.1,
+    "transactions": 10,
+    "avg_order_value": 731.51
+  },
+  {
+    "date": "2025-12-19",
+    "revenue": 2016.66,
+    "transactions": 3,
+    "avg_order_value": 672.22
+  },
+  {
+    "date": "2025-12-20",
+    "revenue": 1934.01,
+    "transactions": 5,
+    "avg_order_value": 386.8
+  },
+  {
+    "date": "2025-12-21",
+    "revenue": 3043.82,
+    "transactions": 7,
+    "avg_order_value": 434.83
+  },
+  {
+    "date": "2025-12-22",
+    "revenue": 3117.82,
+    "transactions": 5,
+    "avg_order_value": 623.56
+  },
+  {
+    "date": "2025-12-23",
+    "revenue": 4153.25,
+    "transactions": 8,
+    "avg_order_value": 519.16
+  },
+  {
+    "date": "2025-12-24",
+    "revenue": 3212.96,
+    "transactions": 8,
+    "avg_order_value": 401.62
+  },
+  {
+    "date": "2025-12-25",
+    "revenue": 4385.9,
+    "transactions": 7,
+    "avg_order_value": 626.56
+  },
+  {
+    "date": "2025-12-26",
+    "revenue": 5502.32,
+    "transactions": 4,
+    "avg_order_value": 1375.58
+  },
+  {
+    "date": "2025-12-27",
+    "revenue": 8809.44,
+    "transactions": 12,
+    "avg_order_value": 734.12
+  },
+  {
+    "date": "2025-12-28",
+    "revenue": 4955.04,
+    "transactions": 4,
+    "avg_order_value": 1238.76
+  },
+  {
+    "date": "2025-12-29",
+    "revenue": 1502.49,
+    "transactions": 3,
+    "avg_order_value": 500.83
+  },
+  {
+    "date": "2025-12-30",
+    "revenue": 8936.15,
+    "transactions": 10,
+    "avg_order_value": 893.62
+  },
+  {
+    "date": "2025-12-31",
+    "revenue": 4911.58,
+    "transactions": 9,
+    "avg_order_value": 545.73
+  },
+  {
+    "date": "2026-01-01",
+    "revenue": 5214.45,
+    "transactions": 12,
+    "avg_order_value": 434.54
+  },
+  {
+    "date": "2026-01-02",
+    "revenue": 4814.59,
+    "transactions": 8,
+    "avg_order_value": 601.82
+  },
+  {
+    "date": "2026-01-03",
+    "revenue": 1539.44,
+    "transactions": 4,
+    "avg_order_value": 384.86
+  },
+  {
+    "date": "2026-01-04",
+    "revenue": 1798.57,
+    "transactions": 5,
+    "avg_order_value": 359.71
+  },
+  {
+    "date": "2026-01-05",
+    "revenue": 4381.09,
+    "transactions": 8,
+    "avg_order_value": 547.64
+  },
+  {
+    "date": "2026-01-06",
+    "revenue": 1780.78,
+    "transactions": 5,
+    "avg_order_value": 356.16
+  },
+  {
+    "date": "2026-01-07",
+    "revenue": 1603.76,
+    "transactions": 4,
+    "avg_order_value": 400.94
+  },
+  {
+    "date": "2026-01-08",
+    "revenue": 7555.78,
+    "transactions": 11,
+    "avg_order_value": 686.89
+  },
+  {
+    "date": "2026-01-09",
+    "revenue": 4656.95,
+    "transactions": 7,
+    "avg_order_value": 665.28
+  },
+  {
+    "date": "2026-01-10",
+    "revenue": 8084.5,
+    "transactions": 8,
+    "avg_order_value": 1010.56
+  },
+  {
+    "date": "2026-01-11",
+    "revenue": 6618.28,
+    "transactions": 11,
+    "avg_order_value": 601.66
+  },
+  {
+    "date": "2026-01-12",
+    "revenue": 5952.78,
+    "transactions": 12,
+    "avg_order_value": 496.07
+  },
+  {
+    "date": "2026-01-13",
+    "revenue": 8341.32,
+    "transactions": 12,
+    "avg_order_value": 695.11
+  },
+  {
+    "date": "2026-01-14",
+    "revenue": 7673.1,
+    "transactions": 12,
+    "avg_order_value": 639.43
+  },
+  {
+    "date": "2026-01-15",
+    "revenue": 1934.29,
+    "transactions": 6,
+    "avg_order_value": 322.38
+  },
+  {
+    "date": "2026-01-16",
+    "revenue": 8768.94,
+    "transactions": 10,
+    "avg_order_value": 876.89
+  },
+  {
+    "date": "2026-01-17",
+    "revenue": 5110.04,
+    "transactions": 9,
+    "avg_order_value": 567.78
+  },
+  {
+    "date": "2026-01-18",
+    "revenue": 2313.14,
+    "transactions": 7,
+    "avg_order_value": 330.45
+  },
+  {
+    "date": "2026-01-19",
+    "revenue": 2498.44,
+    "transactions": 5,
+    "avg_order_value": 499.69
+  },
+  {
+    "date": "2026-01-20",
+    "revenue": 5515.25,
+    "transactions": 8,
+    "avg_order_value": 689.41
+  },
+  {
+    "date": "2026-01-21",
+    "revenue": 4528.49,
+    "transactions": 9,
+    "avg_order_value": 503.17
+  },
+  {
+    "date": "2026-01-22",
+    "revenue": 2546.91,
+    "transactions": 5,
+    "avg_order_value": 509.38
+  },
+  {
+    "date": "2026-01-23",
+    "revenue": 2414.16,
+    "transactions": 6,
+    "avg_order_value": 402.36
+  },
+  {
+    "date": "2026-01-24",
+    "revenue": 1818.3,
+    "transactions": 3,
+    "avg_order_value": 606.1
+  },
+  {
+    "date": "2026-01-25",
+    "revenue": 2749.38,
+    "transactions": 6,
+    "avg_order_value": 458.23
+  },
+  {
+    "date": "2026-01-26",
+    "revenue": 3690.17,
+    "transactions": 4,
+    "avg_order_value": 922.54
+  },
+  {
+    "date": "2026-01-27",
+    "revenue": 1652.44,
+    "transactions": 5,
+    "avg_order_value": 330.49
+  },
+  {
+    "date": "2026-01-28",
+    "revenue": 3679.68,
+    "transactions": 7,
+    "avg_order_value": 525.67
+  },
+  {
+    "date": "2026-01-29",
+    "revenue": 1840.68,
+    "transactions": 3,
+    "avg_order_value": 613.56
+  },
+  {
+    "date": "2026-01-30",
+    "revenue": 1444.85,
+    "transactions": 4,
+    "avg_order_value": 361.21
+  },
+  {
+    "date": "2026-01-31",
+    "revenue": 2433.46,
+    "transactions": 5,
+    "avg_order_value": 486.69
+  },
+  {
+    "date": "2026-02-01",
+    "revenue": 3966.45,
+    "transactions": 10,
+    "avg_order_value": 396.65
+  },
+  {
+    "date": "2026-02-02",
+    "revenue": 2601.05,
+    "transactions": 3,
+    "avg_order_value": 867.02
+  },
+  {
+    "date": "2026-02-03",
+    "revenue": 3285.97,
+    "transactions": 9,
+    "avg_order_value": 365.11
+  },
+  {
+    "date": "2026-02-04",
+    "revenue": 3225.89,
+    "transactions": 9,
+    "avg_order_value": 358.43
+  },
+  {
+    "date": "2026-02-05",
+    "revenue": 4394.3,
+    "transactions": 6,
+    "avg_order_value": 732.38
+  },
+  {
+    "date": "2026-02-06",
+    "revenue": 4788.41,
+    "transactions": 6,
+    "avg_order_value": 798.07
+  },
+  {
+    "date": "2026-02-07",
+    "revenue": 2745.48,
+    "transactions": 4,
+    "avg_order_value": 686.37
+  },
+  {
+    "date": "2026-02-08",
+    "revenue": 7015.56,
+    "transactions": 12,
+    "avg_order_value": 584.63
+  },
+  {
+    "date": "2026-02-09",
+    "revenue": 4932.01,
+    "transactions": 11,
+    "avg_order_value": 448.36
+  },
+  {
+    "date": "2026-02-10",
+    "revenue": 5663.77,
+    "transactions": 12,
+    "avg_order_value": 471.98
+  },
+  {
+    "date": "2026-02-11",
+    "revenue": 677.58,
+    "transactions": 3,
+    "avg_order_value": 225.86
+  },
+  {
+    "date": "2026-02-12",
+    "revenue": 1289.98,
+    "transactions": 2,
+    "avg_order_value": 644.99
+  },
+  {
+    "date": "2026-02-13",
+    "revenue": 1274.51,
+    "transactions": 3,
+    "avg_order_value": 424.84
+  },
+  {
+    "date": "2026-02-14",
+    "revenue": 1235.93,
+    "transactions": 3,
+    "avg_order_value": 411.98
+  },
+  {
+    "date": "2026-02-15",
+    "revenue": 853.47,
+    "transactions": 1,
+    "avg_order_value": 853.47
+  },
+  {
+    "date": "2026-02-16",
+    "revenue": 774.72,
+    "transactions": 1,
+    "avg_order_value": 774.72
+  },
+  {
+    "date": "2026-02-17",
+    "revenue": 1896.49,
+    "transactions": 3,
+    "avg_order_value": 632.16
+  },
+  {
+    "date": "2026-02-18",
+    "revenue": 2346.89,
+    "transactions": 4,
+    "avg_order_value": 586.72
+  },
+  {
+    "date": "2026-02-19",
+    "revenue": 1006.08,
+    "transactions": 1,
+    "avg_order_value": 1006.08
+  },
+  {
+    "date": "2026-02-20",
+    "revenue": 113.53,
+    "transactions": 2,
+    "avg_order_value": 56.76
+  },
+  {
+    "date": "2026-02-21",
+    "revenue": 830.22,
+    "transactions": 3,
+    "avg_order_value": 276.74
+  },
+  {
+    "date": "2026-02-22",
+    "revenue": 1460.07,
+    "transactions": 2,
+    "avg_order_value": 730.04
+  },
+  {
+    "date": "2026-02-23",
+    "revenue": 596.68,
+    "transactions": 1,
+    "avg_order_value": 596.68
+  },
+  {
+    "date": "2026-02-24",
+    "revenue": 261.4,
+    "transactions": 3,
+    "avg_order_value": 87.13
+  },
+  {
+    "date": "2026-02-25",
+    "revenue": 2565.95,
+    "transactions": 3,
+    "avg_order_value": 855.32
+  },
+  {
+    "date": "2026-02-26",
+    "revenue": 1855.08,
+    "transactions": 3,
+    "avg_order_value": 618.36
+  },
+  {
+    "date": "2026-02-27",
+    "revenue": 399.62,
+    "transactions": 1,
+    "avg_order_value": 399.62
+  },
+  {
+    "date": "2026-02-28",
+    "revenue": 295.89,
+    "transactions": 2,
+    "avg_order_value": 147.94
+  },
+  {
+    "date": "2026-03-01",
+    "revenue": 2453.31,
+    "transactions": 2,
+    "avg_order_value": 1226.65
+  },
+  {
+    "date": "2026-03-02",
+    "revenue": 1482.41,
+    "transactions": 3,
+    "avg_order_value": 494.14
+  },
+  {
+    "date": "2026-03-03",
+    "revenue": 2549.64,
+    "transactions": 4,
+    "avg_order_value": 637.41
+  },
+  {
+    "date": "2026-03-04",
+    "revenue": 2871.18,
+    "transactions": 6,
+    "avg_order_value": 478.53
+  },
+  {
+    "date": "2026-03-05",
+    "revenue": 3299.02,
+    "transactions": 8,
+    "avg_order_value": 412.38
+  },
+  {
+    "date": "2026-03-06",
+    "revenue": 5749.02,
+    "transactions": 11,
+    "avg_order_value": 522.64
+  },
+  {
+    "date": "2026-03-07",
+    "revenue": 4847.51,
+    "transactions": 7,
+    "avg_order_value": 692.5
+  },
+  {
+    "date": "2026-03-08",
+    "revenue": 2850.69,
+    "transactions": 6,
+    "avg_order_value": 475.12
+  },
+  {
+    "date": "2026-03-09",
+    "revenue": 722.33,
+    "transactions": 3,
+    "avg_order_value": 240.78
+  },
+  {
+    "date": "2026-03-10",
+    "revenue": 3775.42,
+    "transactions": 6,
+    "avg_order_value": 629.24
+  },
+  {
+    "date": "2026-03-11",
+    "revenue": 3614.88,
+    "transactions": 5,
+    "avg_order_value": 722.98
+  },
+  {
+    "date": "2026-03-12",
+    "revenue": 5798.19,
+    "transactions": 6,
+    "avg_order_value": 966.37
+  },
+  {
+    "date": "2026-03-13",
+    "revenue": 5579.77,
+    "transactions": 8,
+    "avg_order_value": 697.47
+  },
+  {
+    "date": "2026-03-14",
+    "revenue": 2562.14,
+    "transactions": 4,
+    "avg_order_value": 640.53
+  },
+  {
+    "date": "2026-03-15",
+    "revenue": 5142.77,
+    "transactions": 10,
+    "avg_order_value": 514.28
+  },
+  {
+    "date": "2026-03-16",
+    "revenue": 2944.91,
+    "transactions": 4,
+    "avg_order_value": 736.23
+  },
+  {
+    "date": "2026-03-17",
+    "revenue": 2084.36,
+    "transactions": 5,
+    "avg_order_value": 416.87
+  },
+  {
+    "date": "2026-03-18",
+    "revenue": 6413.83,
+    "transactions": 9,
+    "avg_order_value": 712.65
+  },
+  {
+    "date": "2026-03-19",
+    "revenue": 5906.09,
+    "transactions": 11,
+    "avg_order_value": 536.92
+  },
+  {
+    "date": "2026-03-20",
+    "revenue": 5255.99,
+    "transactions": 8,
+    "avg_order_value": 657.0
+  },
+  {
+    "date": "2026-03-21",
+    "revenue": 6230.37,
+    "transactions": 10,
+    "avg_order_value": 623.04
+  },
+  {
+    "date": "2026-03-22",
+    "revenue": 7385.11,
+    "transactions": 10,
+    "avg_order_value": 738.51
+  },
+  {
+    "date": "2026-03-23",
+    "revenue": 6451.99,
+    "transactions": 12,
+    "avg_order_value": 537.67
+  },
+  {
+    "date": "2026-03-24",
+    "revenue": 832.45,
+    "transactions": 3,
+    "avg_order_value": 277.48
+  },
+  {
+    "date": "2026-03-25",
+    "revenue": 3335.41,
+    "transactions": 8,
+    "avg_order_value": 416.93
+  },
+  {
+    "date": "2026-03-26",
+    "revenue": 2408.44,
+    "transactions": 5,
+    "avg_order_value": 481.69
+  },
+  {
+    "date": "2026-03-27",
+    "revenue": 9910.91,
+    "transactions": 11,
+    "avg_order_value": 900.99
+  },
+  {
+    "date": "2026-03-28",
+    "revenue": 4031.83,
+    "transactions": 8,
+    "avg_order_value": 503.98
+  },
+  {
+    "date": "2026-03-29",
+    "revenue": 8482.33,
+    "transactions": 12,
+    "avg_order_value": 706.86
+  },
+  {
+    "date": "2026-03-30",
+    "revenue": 5538.89,
+    "transactions": 9,
+    "avg_order_value": 615.43
+  },
+  {
+    "date": "2026-03-31",
+    "revenue": 2303.24,
+    "transactions": 4,
+    "avg_order_value": 575.81
+  },
+  {
+    "date": "2026-04-01",
+    "revenue": 8549.49,
+    "transactions": 12,
+    "avg_order_value": 712.46
+  },
+  {
+    "date": "2026-04-02",
+    "revenue": 4775.26,
+    "transactions": 9,
+    "avg_order_value": 530.58
+  },
+  {
+    "date": "2026-04-03",
+    "revenue": 5889.96,
+    "transactions": 11,
+    "avg_order_value": 535.45
+  },
+  {
+    "date": "2026-04-04",
+    "revenue": 3635.21,
+    "transactions": 7,
+    "avg_order_value": 519.32
+  },
+  {
+    "date": "2026-04-05",
+    "revenue": 1707.09,
+    "transactions": 3,
+    "avg_order_value": 569.03
+  },
+  {
+    "date": "2026-04-06",
+    "revenue": 3638.38,
+    "transactions": 9,
+    "avg_order_value": 404.26
+  },
+  {
+    "date": "2026-04-07",
+    "revenue": 6108.18,
+    "transactions": 12,
+    "avg_order_value": 509.01
+  },
+  {
+    "date": "2026-04-08",
+    "revenue": 4289.85,
+    "transactions": 7,
+    "avg_order_value": 612.84
+  },
+  {
+    "date": "2026-04-09",
+    "revenue": 1743.92,
+    "transactions": 4,
+    "avg_order_value": 435.98
+  },
+  {
+    "date": "2026-04-10",
+    "revenue": 701.48,
+    "transactions": 3,
+    "avg_order_value": 233.83
+  },
+  {
+    "date": "2026-04-11",
+    "revenue": 4783.22,
+    "transactions": 5,
+    "avg_order_value": 956.64
+  },
+  {
+    "date": "2026-04-12",
+    "revenue": 4586.47,
+    "transactions": 9,
+    "avg_order_value": 509.61
+  },
+  {
+    "date": "2026-04-13",
+    "revenue": 1974.11,
+    "transactions": 5,
+    "avg_order_value": 394.82
+  },
+  {
+    "date": "2026-04-14",
+    "revenue": 2810.49,
+    "transactions": 3,
+    "avg_order_value": 936.83
+  },
+  {
+    "date": "2026-04-15",
+    "revenue": 2687.87,
+    "transactions": 6,
+    "avg_order_value": 447.98
+  },
+  {
+    "date": "2026-04-16",
+    "revenue": 2737.13,
+    "transactions": 4,
+    "avg_order_value": 684.28
+  },
+  {
+    "date": "2026-04-17",
+    "revenue": 2702.33,
+    "transactions": 8,
+    "avg_order_value": 337.79
+  },
+  {
+    "date": "2026-04-18",
+    "revenue": 1230.46,
+    "transactions": 4,
+    "avg_order_value": 307.62
+  },
+  {
+    "date": "2026-04-19",
+    "revenue": 3770.1,
+    "transactions": 5,
+    "avg_order_value": 754.02
+  },
+  {
+    "date": "2026-04-20",
+    "revenue": 870.54,
+    "transactions": 3,
+    "avg_order_value": 290.18
+  },
+  {
+    "date": "2026-04-21",
+    "revenue": 5635.36,
+    "transactions": 8,
+    "avg_order_value": 704.42
+  },
+  {
+    "date": "2026-04-22",
+    "revenue": 2452.73,
+    "transactions": 5,
+    "avg_order_value": 490.55
+  },
+  {
+    "date": "2026-04-23",
+    "revenue": 7486.04,
+    "transactions": 11,
+    "avg_order_value": 680.55
+  },
+  {
+    "date": "2026-04-24",
+    "revenue": 4047.37,
+    "transactions": 9,
+    "avg_order_value": 449.71
+  },
+  {
+    "date": "2026-04-25",
+    "revenue": 4570.5,
+    "transactions": 9,
+    "avg_order_value": 507.83
+  },
+  {
+    "date": "2026-04-26",
+    "revenue": 7560.99,
+    "transactions": 12,
+    "avg_order_value": 630.08
+  }
+]

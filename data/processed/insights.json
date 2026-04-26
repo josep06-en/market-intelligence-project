@@ -1,0 +1,452 @@
+[
+  {
+    "id": "pricing_risk_decline_PROD_033",
+    "type": "risk",
+    "severity": "high",
+    "message": "Declining demand on Peach Nectar",
+    "detail": "Revenue at risk: 134590 with downward trend",
+    "affected_period": "Last 90 days",
+    "metric": "volume"
+  },
+  {
+    "id": "pricing_risk_decline_PROD_042",
+    "type": "risk",
+    "severity": "high",
+    "message": "Declining demand on Cranberry Juice",
+    "detail": "Revenue at risk: 119872 with downward trend",
+    "affected_period": "Last 90 days",
+    "metric": "volume"
+  },
+  {
+    "id": "pricing_risk_decline_PROD_031",
+    "type": "risk",
+    "severity": "high",
+    "message": "Declining demand on Root Beer",
+    "detail": "Revenue at risk: 104505 with downward trend",
+    "affected_period": "Last 90 days",
+    "metric": "volume"
+  },
+  {
+    "id": "revenue_drop_20250516",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 25.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-05-10 / 2025-05-16",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250518",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 24.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-05-12 / 2025-05-18",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250519",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 21.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-05-13 / 2025-05-19",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250521",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 15.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-05-15 / 2025-05-21",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250601",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 24.4% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-05-26 / 2025-06-01",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250609",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 20.6% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-03 / 2025-06-09",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250610",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 20.3% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-04 / 2025-06-10",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250611",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 21.2% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-05 / 2025-06-11",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250614",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 18.7% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-08 / 2025-06-14",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250615",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 17.7% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-09 / 2025-06-15",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250616",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 15.9% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-10 / 2025-06-16",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250626",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 30.2% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-20 / 2025-06-26",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250630",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 22.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-06-24 / 2025-06-30",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250714",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 22.3% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-07-08 / 2025-07-14",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250715",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 36.5% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-07-09 / 2025-07-15",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250716",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 33.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-07-10 / 2025-07-16",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250717",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 31.6% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-07-11 / 2025-07-17",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250729",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 27.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-07-23 / 2025-07-29",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250810",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 31.9% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-04 / 2025-08-10",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250811",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 27.2% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-05 / 2025-08-11",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250827",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 16.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-21 / 2025-08-27",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250828",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 24.3% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-22 / 2025-08-28",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250829",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 30.3% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-23 / 2025-08-29",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250830",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 17.1% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-24 / 2025-08-30",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250902",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 15.6% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-08-27 / 2025-09-02",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250913",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 19.9% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-07 / 2025-09-13",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250914",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 44.4% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-08 / 2025-09-14",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250915",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 40.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-09 / 2025-09-15",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250916",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 51.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-10 / 2025-09-16",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250917",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 42.2% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-11 / 2025-09-17",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250918",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 21.0% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-12 / 2025-09-18",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20250919",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 23.5% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-09-13 / 2025-09-19",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251008",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 27.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-10-02 / 2025-10-08",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251016",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 27.7% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-10-10 / 2025-10-16",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251017",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 18.2% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-10-11 / 2025-10-17",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251026",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 16.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-10-20 / 2025-10-26",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251028",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 23.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-10-22 / 2025-10-28",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251029",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 20.3% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-10-23 / 2025-10-29",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251107",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 17.1% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-11-01 / 2025-11-07",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251108",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 23.4% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-11-02 / 2025-11-08",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251219",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 23.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-13 / 2025-12-19",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251220",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 18.2% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-14 / 2025-12-20",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251221",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 32.8% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-15 / 2025-12-21",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251222",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 21.7% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-16 / 2025-12-22",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251223",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 35.4% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-17 / 2025-12-23",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251224",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 27.3% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-18 / 2025-12-24",
+    "metric": "revenue"
+  },
+  {
+    "id": "revenue_drop_20251225",
+    "type": "alert",
+    "severity": "high",
+    "message": "Revenue dropped 36.5% vs previous week",
+    "detail": "7-day average revenue significantly declined compared to previous 7 days",
+    "affected_period": "2025-12-19 / 2025-12-25",
+    "metric": "revenue"
+  }
+]
