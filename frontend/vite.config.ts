@@ -5,14 +5,15 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  publicDir: '../',
   server: {
     port: 3000,
-    open: true
+    host: true
   },
+  base: '/market-intelligence-project/',
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')
     }
   },
-  publicDir: '../'
 })
