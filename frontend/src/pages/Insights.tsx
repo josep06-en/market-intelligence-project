@@ -9,10 +9,10 @@ interface InsightsProps {
 export default function Insights({ insights }: InsightsProps) {
   // Get top insights (6-8 insights sorted by severity)
   const topInsights = useMemo(() => {
-    return insights
+    return (insights || [])
       .sort((a, b) => {
         const severityOrder = { high: 3, medium: 2, low: 1 };
-        return severityOrder[b.severity] - severityOrder[a.severity];
+        return (severityOrder[b?.severity || 'low'] ?? 1) - (severityOrder[a?.severity || 'low'] ?? 1);
       })
       .slice(0, 8);
   }, [insights]);

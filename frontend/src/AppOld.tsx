@@ -1,26 +1,18 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import type { AppData } from './types';
-import { validateKPIs, validateTrends, validateInsights, validateProductMetrics, validateRecommendations } from './utils/validate';
-import { filterTrendsByDateRange, filterInsightsByDateRange, calculateKPIsForDateRange } from './utils/dateFilter';
 import Navbar from './components/Navbar';
 import Strategy from './pages/Strategy';
 import Simulation from './pages/Simulation';
 import Performance from './pages/Performance';
 import Insights from './pages/Insights';
-import ErrorBoundary from './ErrorBoundary';
-import type { DateRange } from './types';
+import type { AppData, DateRange } from './types';
+import { validateKPIs, validateTrends, validateInsights, validateProductMetrics, validateRecommendations } from './utils/validate';
+import { filterTrendsByDateRange, filterInsightsByDateRange, calculateKPIsForDateRange } from './utils/dateFilter';
 
-interface AppState {
-  kpis: AppData['kpis'];
-  trends: AppData['trends'];
-  insights: AppData['insights'];
-  product_metrics: AppData['product_metrics'];
-  recommendations: AppData['recommendations'];
-}
+// Import embedded data for Vercel fallback
+import { embeddedData } from './data';
 
 function App() {
-  const [data, setData] = useState<AppState>({
+  const [rawData, setRawData] = useState<AppData>({
     kpis: null,
     trends: [],
     insights: [],
@@ -34,6 +26,16 @@ function App() {
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isFiltering, setIsFiltering] = useState(false);
+
+  // Calculate filtered data based on date range
+  const filteredData = {
+    kpis: rawData.trends.length > 0 ? calculateKPIsForDateRange(rawData.trends, dateRange) : null,
+    trends: filterTrendsByDateRange(rawData.trends, dateRange),
+    insights: filterInsightsByDateRange(rawData.insights, dateRange),
+    product_metrics: rawData.product_metrics, // Not date-filtered for now
+    recommendations: rawData.recommendations // Not date-filtered for now
+  };
 
   useEffect(() => {
     const loadData = async () => {
@@ -41,7 +43,6 @@ function App() {
         setLoading(true);
         setError(null);
 
-        // Load all data files with absolute paths
         const [kpisResponse, trendsResponse, insightsResponse, productMetricsResponse, recommendationsResponse] = await Promise.all([
           fetch('/data/processed/kpis.json'),
           fetch('/data/processed/trends.json'),
@@ -50,12 +51,10 @@ function App() {
           fetch('/data/processed/recommendations.json')
         ]);
 
-        // Check if all responses are ok
         if (!kpisResponse.ok || !trendsResponse.ok || !insightsResponse.ok || !productMetricsResponse.ok || !recommendationsResponse.ok) {
-          throw new Error(`Failed to load data files. Status: ${kpisResponse.status}, ${trendsResponse.status}, ${insightsResponse.status}, ${productMetricsResponse.status}, ${recommendationsResponse.status}`);
+          throw new Error('Failed to load data files');
         }
 
-        // Parse JSON data
         const [kpisData, trendsData, insightsData, productMetricsData, recommendationsData] = await Promise.all([
           kpisResponse.json(),
           trendsResponse.json(),
@@ -64,18 +63,29 @@ function App() {
           recommendationsResponse.json()
         ]);
 
-        // Validate and set data
-        setData({
+        setRawData({
           kpis: validateKPIs(kpisData),
           trends: validateTrends(trendsData),
           insights: validateInsights(insightsData),
           product_metrics: validateProductMetrics(productMetricsData),
           recommendations: validateRecommendations(recommendationsData)
         });
-
       } catch (err) {
-        console.error('Error loading data:', err);
-        setError(err instanceof Error ? err.message : 'Unknown error occurred');
+        console.error('Detailed error:', err);
+        console.error('Error type:', typeof err);
+        console.error('Error message:', err instanceof Error ? err.message : String(err));
+        
+        // Fallback to embedded data for Vercel deployment
+        console.warn('Using embedded data fallback for Vercel deployment');
+        setRawData({
+          kpis: validateKPIs(embeddedData.kpis),
+          trends: validateTrends(embeddedData.trends),
+          insights: validateInsights(embeddedData.insights),
+          product_metrics: validateProductMetrics(embeddedData.product_metrics),
+          recommendations: validateRecommendations(embeddedData.recommendations)
+        });
+        
+        setError(null); // Clear error since we're using fallback
       } finally {
         setLoading(false);
       }
@@ -84,25 +94,21 @@ function App() {
     loadData();
   }, []); // Only load data once on mount
 
-  // Calculate filtered data based on date range
-  const filteredData = {
-    kpis: data.trends.length > 0 ? calculateKPIsForDateRange(data.trends, dateRange) : null,
-    trends: filterTrendsByDateRange(data.trends, dateRange),
-    insights: filterInsightsByDateRange(data.insights, dateRange),
-    product_metrics: data.product_metrics,
-    recommendations: data.recommendations
-  };
+  useEffect(() => {
+    if (rawData.trends.length > 0) {
+      setIsFiltering(true);
+      // Brief delay to show filtering state
+      const timer = setTimeout(() => {
+        setIsFiltering(false);
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [dateRange, rawData.trends.length]);
 
   const renderPage = () => {
     switch (currentPage) {
       case 'strategy':
-        return (
-          <Strategy 
-            recommendations={filteredData.recommendations} 
-            insights={filteredData.insights} 
-            onPageChange={setCurrentPage} 
-          />
-        );
+        return <Strategy recommendations={filteredData.recommendations} insights={filteredData.insights} onPageChange={setCurrentPage} />;
       case 'simulation':
         return <Simulation productMetrics={filteredData.product_metrics} />;
       case 'performance':
@@ -110,17 +116,10 @@ function App() {
       case 'insights':
         return <Insights insights={filteredData.insights} />;
       default:
-        return (
-          <Strategy 
-            recommendations={filteredData.recommendations} 
-            insights={filteredData.insights} 
-            onPageChange={setCurrentPage} 
-          />
-        );
+        return <Strategy recommendations={filteredData.recommendations} insights={filteredData.insights} onPageChange={setCurrentPage} />;
     }
   };
 
-  // Loading state
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -132,39 +131,29 @@ function App() {
     );
   }
 
-  // Error state
   if (error) {
+    console.error('App error:', error);
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-red-500 text-6xl mb-4">⚠️</div>
           <div className="text-red-500 mb-4">Error loading data</div>
-          <div className="text-sm text-gray-600 mb-4">{error}</div>
-          <button
-            onClick={() => window.location.reload()}
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-          >
-            Try Again
-          </button>
+          <div className="text-sm text-gray-600">{error}</div>
         </div>
       </div>
     );
   }
 
   return (
-    <ErrorBoundary>
-      <BrowserRouter>
-        <div className="min-h-screen bg-gray-50">
-          <Navbar
-            currentPage={currentPage}
-            onPageChange={setCurrentPage}
-            dateRange={dateRange}
-            onDateRangeChange={setDateRange}
-          />
-          {renderPage()}
-        </div>
-      </BrowserRouter>
-    </ErrorBoundary>
+    <div className="min-h-screen bg-gray-50">
+      <Navbar
+        currentPage={currentPage}
+        onPageChange={setCurrentPage}
+        dateRange={dateRange}
+        onDateRangeChange={setDateRange}
+        isFiltering={isFiltering}
+      />
+      {renderPage()}
+    </div>
   );
 }
 

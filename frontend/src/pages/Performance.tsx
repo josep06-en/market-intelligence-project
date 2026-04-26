@@ -2,6 +2,12 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import type { KPIs, TrendPoint } from '../types';
 import { formatCurrency, formatNumber, formatPercent, getGrowthColor } from '../utils/format';
 
+// Safe formatting function
+const safeFormatK = (value: number | undefined | null): string => {
+  if (typeof value !== 'number' || isNaN(value)) return '0';
+  return formatCurrency(value);
+};
+
 interface PerformanceProps {
   kpis: KPIs | null;
   trends: TrendPoint[];
@@ -22,9 +28,9 @@ const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
           {label}
         </div>
         <div className="text-xs text-gray-600 space-y-1">
-          <div>Revenue: ${formatK(data.revenue)}</div>
-          <div>Transactions: {data.transactions}</div>
-          <div>Avg Order: ${data.avg_order_value.toFixed(2)}</div>
+          <div>Revenue: {safeFormatK(data?.revenue)}</div>
+          <div>Transactions: {data?.transactions ?? 0}</div>
+          <div>Avg Order: ${typeof data?.avg_order_value === 'number' ? data.avg_order_value.toFixed(2) : '0.00'}</div>
         </div>
       </div>
     );
@@ -33,7 +39,7 @@ const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
 };
 
 export default function Performance({ kpis, trends }: PerformanceProps) {
-  const chartData = trends.map(trend => ({
+  const chartData = (trends || []).map(trend => ({
     ...trend,
     displayDate: formatDate(trend.date),
   }));
@@ -54,7 +60,7 @@ export default function Performance({ kpis, trends }: PerformanceProps) {
                   Total Revenue
                 </div>
                 <div className="text-2xl font-bold text-gray-900">
-                  {formatCurrency(kpis.total_revenue)}
+                  {formatCurrency(kpis?.total_revenue ?? 0)}
                 </div>
               </div>
               
@@ -62,8 +68,8 @@ export default function Performance({ kpis, trends }: PerformanceProps) {
                 <div className="text-sm uppercase tracking-wide text-gray-500 mb-2">
                   Growth Rate
                 </div>
-                <div className={`text-2xl font-bold ${getGrowthColor(kpis.growth_rate)}`}>
-                  {formatPercent(kpis.growth_rate)}
+                <div className={`text-2xl font-bold ${getGrowthColor(kpis?.growth_rate ?? 0)}`}>
+                  {formatPercent(kpis?.growth_rate ?? 0)}
                 </div>
               </div>
               
@@ -72,7 +78,7 @@ export default function Performance({ kpis, trends }: PerformanceProps) {
                   Total Transactions
                 </div>
                 <div className="text-2xl font-bold text-gray-900">
-                  {formatNumber(kpis.total_transactions)}
+                  {formatNumber(kpis?.total_transactions ?? 0)}
                 </div>
               </div>
             </>

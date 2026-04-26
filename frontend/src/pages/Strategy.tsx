@@ -12,33 +12,33 @@ export default function Strategy({ recommendations, insights, onPageChange }: St
 
   // Calculate global impact
   const globalImpact = useMemo(() => {
-    if (recommendations.length === 0) return 0;
-    const totalRevenueChange = recommendations.reduce((sum, rec) => sum + rec.expected_revenue_change, 0);
+    if (!recommendations || recommendations.length === 0) return 0;
+    const totalRevenueChange = recommendations.reduce((sum, rec) => sum + (rec?.expected_revenue_change ?? 0), 0);
     const avgImpact = totalRevenueChange / recommendations.length;
     return avgImpact;
   }, [recommendations]);
 
   // Get top recommendations (5-8 products)
   const topRecommendations = useMemo(() => {
-    return recommendations
-      .filter(rec => rec.action !== 'keep_price')
-      .sort((a, b) => b.expected_revenue_change - a.expected_revenue_change)
+    return (recommendations || [])
+      .filter(rec => rec?.action !== 'keep_price')
+      .sort((a, b) => (b?.expected_revenue_change ?? 0) - (a?.expected_revenue_change ?? 0))
       .slice(0, 8);
   }, [recommendations]);
 
   // Get top insights (3 insights)
   const topInsights = useMemo(() => {
-    return insights
+    return (insights || [])
       .sort((a, b) => {
         const severityOrder = { high: 3, medium: 2, low: 1 };
-        return severityOrder[b.severity] - severityOrder[a.severity];
+        return (severityOrder[b?.severity || 'low'] ?? 1) - (severityOrder[a?.severity || 'low'] ?? 1);
       })
       .slice(0, 3);
   }, [insights]);
 
   
   // Show loading state if no data
-  if (recommendations.length === 0 && insights.length === 0) {
+  if ((!recommendations || recommendations.length === 0) && (!insights || insights.length === 0)) {
     return (
       <div className="pt-20 px-4">
         <div className="max-w-7xl mx-auto">

@@ -15,14 +15,17 @@ const simulatePricingScenarios = (product: ProductMetric): PricingScenario[] => 
   ];
 
   return scenarios.map(scenario => {
-    const new_price = product.current_price * (1 + scenario.price_change);
-    const elasticity = product.elasticity || -0.5;
+    const currentPrice = product?.current_price ?? 10;
+    const avgDailyUnits = product?.avg_daily_units ?? 100;
+    const elasticity = product?.elasticity ?? -0.5;
+    
+    const new_price = currentPrice * (1 + scenario.price_change);
     const price_change_pct = scenario.price_change * 100;
     const quantity_change_pct = elasticity * price_change_pct;
-    const new_units = product.avg_daily_units * (1 + quantity_change_pct / 100);
+    const new_units = avgDailyUnits * (1 + quantity_change_pct / 100);
     const new_revenue = new_price * new_units * 365;
-    const current_revenue = product.current_price * product.avg_daily_units * 365;
-    const revenue_change = ((new_revenue - current_revenue) / current_revenue) * 100;
+    const current_revenue = currentPrice * avgDailyUnits * 365;
+    const revenue_change = current_revenue > 0 ? ((new_revenue - current_revenue) / current_revenue) * 100 : 0;
 
     return {
       name: scenario.name,
@@ -50,7 +53,7 @@ export default function Simulation({ productMetrics }: SimulationProps) {
   const [selectedProduct, setSelectedProduct] = useState<string>('');
 
   const selectedProductData = useMemo(() => {
-    return productMetrics.find(p => p.product_id === selectedProduct);
+    return (productMetrics || []).find(p => p?.product_id === selectedProduct);
   }, [selectedProduct, productMetrics]);
 
   const pricingScenarios = useMemo(() => {
