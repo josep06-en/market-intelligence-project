@@ -155,7 +155,25 @@ The application expects JSON data in the following structure:
 
 ## 🚀 Deployment
 
-### Build for Production
+### Vercel Deployment (Recommended)
+
+1. **Install Vercel CLI** (optional)
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Deploy to Vercel**
+   ```bash
+   # From project root
+   vercel
+   ```
+
+3. **Automatic Deployment**
+   - Connect your GitHub repository to Vercel
+   - Automatic deployments on push to main branch
+   - Preview deployments for pull requests
+
+### Manual Build for Production
 ```bash
 cd frontend
 npm run build
@@ -164,6 +182,12 @@ npm run build
 ### Preview Production Build
 ```bash
 npm run preview
+```
+
+### GitHub Pages (Alternative)
+```bash
+cd frontend
+npm run deploy
 ```
 
 ## 🤝 Contributing

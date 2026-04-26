@@ -10,10 +10,14 @@ export default defineConfig({
     port: 3000,
     host: true
   },
-  base: '/market-intelligence-project/',
+  base: process.env.NODE_ENV === 'production' ? '/' : '/',
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')
     }
   },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
 })
