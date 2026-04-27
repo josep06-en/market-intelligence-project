@@ -1,6 +1,6 @@
 {
-  "buildCommand": "cd frontend && npm run build",
-  "outputDirectory": "frontend/build",
+  "buildCommand": "cd frontend && npm run build && Copy-Item -Recurse -Force build/* ..",
+  "outputDirectory": ".",
   "installCommand": "cd frontend && npm install",
   "framework": "vite",
   "rewrites": [

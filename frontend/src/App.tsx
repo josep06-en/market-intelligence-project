@@ -41,41 +41,94 @@ function App() {
         setLoading(true);
         setError(null);
 
-        // Load all data files with absolute paths
-        const [kpisResponse, trendsResponse, insightsResponse, productMetricsResponse, recommendationsResponse] = await Promise.all([
-          fetch('/data/processed/kpis.json'),
-          fetch('/data/processed/trends.json'),
-          fetch('/data/processed/insights.json'),
-          fetch('/data/processed/product_metrics.json'),
-          fetch('/data/processed/recommendations.json')
-        ]);
+        console.log('🚀 Starting data loading...');
 
-        // Check if all responses are ok
-        if (!kpisResponse.ok || !trendsResponse.ok || !insightsResponse.ok || !productMetricsResponse.ok || !recommendationsResponse.ok) {
-          throw new Error(`Failed to load data files. Status: ${kpisResponse.status}, ${trendsResponse.status}, ${insightsResponse.status}, ${productMetricsResponse.status}, ${recommendationsResponse.status}`);
+        // Load required files individually for better error handling
+        const fileUrls = [
+          '/data/processed/kpis.json',
+          '/data/processed/trends.json', 
+          '/data/processed/insights.json',
+          '/data/processed/product_metrics.json',
+          '/data/processed/recommendations.json'
+        ];
+
+        const results = await Promise.allSettled(
+          fileUrls.map(url => fetch(url))
+        );
+
+        const loadedData: AppState = {
+          kpis: null,
+          trends: [],
+          insights: [],
+          product_metrics: [],
+          recommendations: []
+        };
+
+        // Process each result
+        for (let i = 0; i < results.length; i++) {
+          const result = results[i];
+          const url = fileUrls[i];
+          const filename = url.split('/').pop() || '';
+
+          if (result.status === 'fulfilled') {
+            const response = result.value;
+            if (response.ok) {
+              try {
+                const data = await response.json();
+                console.log(`✅ Successfully loaded ${filename}`);
+                
+                // Validate and store data
+                switch (filename) {
+                  case 'kpis.json':
+                    loadedData.kpis = validateKPIs(data);
+                    break;
+                  case 'trends.json':
+                    loadedData.trends = validateTrends(data);
+                    break;
+                  case 'insights.json':
+                    loadedData.insights = validateInsights(data);
+                    break;
+                  case 'product_metrics.json':
+                    loadedData.product_metrics = validateProductMetrics(data);
+                    break;
+                  case 'recommendations.json':
+                    loadedData.recommendations = validateRecommendations(data);
+                    break;
+                }
+              } catch (parseErr) {
+                console.error(`❌ Failed to parse ${filename}:`, parseErr);
+              }
+            } else {
+              console.error(`❌ Failed to fetch ${filename}: HTTP ${response.status}`);
+            }
+          } else {
+            console.error(`❌ Failed to fetch ${filename}:`, result.reason);
+          }
         }
 
-        // Parse JSON data
-        const [kpisData, trendsData, insightsData, productMetricsData, recommendationsData] = await Promise.all([
-          kpisResponse.json(),
-          trendsResponse.json(),
-          insightsResponse.json(),
-          productMetricsResponse.json(),
-          recommendationsResponse.json()
-        ]);
-
-        // Validate and set data
-        setData({
-          kpis: validateKPIs(kpisData),
-          trends: validateTrends(trendsData),
-          insights: validateInsights(insightsData),
-          product_metrics: validateProductMetrics(productMetricsData),
-          recommendations: validateRecommendations(recommendationsData)
+        console.log('📊 Data loading summary:', {
+          kpis: loadedData.kpis ? '✅' : '❌',
+          trends: loadedData.trends.length > 0 ? '✅' : '❌',
+          insights: loadedData.insights.length > 0 ? '✅' : '❌',
+          product_metrics: loadedData.product_metrics.length > 0 ? '✅' : '❌',
+          recommendations: loadedData.recommendations.length > 0 ? '✅' : '❌'
         });
 
+        // Set data even if some files failed - app should never crash
+        setData(loadedData);
+
       } catch (err) {
-        console.error('Error loading data:', err);
+        console.error('💥 Critical error in data loading:', err);
         setError(err instanceof Error ? err.message : 'Unknown error occurred');
+        
+        // Set empty data to prevent app crash
+        setData({
+          kpis: null,
+          trends: [],
+          insights: [],
+          product_metrics: [],
+          recommendations: []
+        });
       } finally {
         setLoading(false);
       }
@@ -86,11 +139,11 @@ function App() {
 
   // Calculate filtered data based on date range
   const filteredData = {
-    kpis: data.trends.length > 0 ? calculateKPIsForDateRange(data.trends, dateRange) : null,
-    trends: filterTrendsByDateRange(data.trends, dateRange),
-    insights: filterInsightsByDateRange(data.insights),
-    product_metrics: data.product_metrics,
-    recommendations: data.recommendations
+    kpis: (data.trends || []).length > 0 ? calculateKPIsForDateRange(data.trends || [], dateRange) : null,
+    trends: filterTrendsByDateRange(data.trends || [], dateRange),
+    insights: filterInsightsByDateRange(data.insights || [], dateRange),
+    product_metrics: data.product_metrics || [],
+    recommendations: data.recommendations || []
   };
 
   const renderPage = () => {
