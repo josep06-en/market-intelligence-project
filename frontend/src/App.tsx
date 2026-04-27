@@ -41,8 +41,7 @@ function App() {
         setLoading(true);
         setError(null);
 
-        console.log('🚀 Starting data loading...');
-
+        
         // Load required files individually for better error handling
         const fileUrls = [
           '/data/processed/kpis.json',
@@ -75,8 +74,7 @@ function App() {
             if (response.ok) {
               try {
                 const data = await response.json();
-                console.log(`✅ Successfully loaded ${filename}`);
-                
+                                
                 // Validate and store data
                 switch (filename) {
                   case 'kpis.json':
@@ -96,30 +94,19 @@ function App() {
                     break;
                 }
               } catch (parseErr) {
-                console.error(`❌ Failed to parse ${filename}:`, parseErr);
-              }
+                              }
             } else {
-              console.error(`❌ Failed to fetch ${filename}: HTTP ${response.status}`);
-            }
+                          }
           } else {
-            console.error(`❌ Failed to fetch ${filename}:`, result.reason);
-          }
+                      }
         }
 
-        console.log('📊 Data loading summary:', {
-          kpis: loadedData.kpis ? '✅' : '❌',
-          trends: loadedData.trends.length > 0 ? '✅' : '❌',
-          insights: loadedData.insights.length > 0 ? '✅' : '❌',
-          product_metrics: loadedData.product_metrics.length > 0 ? '✅' : '❌',
-          recommendations: loadedData.recommendations.length > 0 ? '✅' : '❌'
-        });
-
+        
         // Set data even if some files failed - app should never crash
         setData(loadedData);
 
       } catch (err) {
-        console.error('💥 Critical error in data loading:', err);
-        setError(err instanceof Error ? err.message : 'Unknown error occurred');
+                setError(err instanceof Error ? err.message : 'Unknown error occurred');
         
         // Set empty data to prevent app crash
         setData({

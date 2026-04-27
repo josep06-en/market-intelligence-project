@@ -12,13 +12,11 @@ export const filterTrendsByDateRange = (trends: TrendPoint[], dateRange: DateRan
   });
 };
 
-export const filterInsightsByDateRange = (insights: Insight[], dateRange: DateRange): Insight[] => {
+export const filterInsightsByDateRange = (insights: Insight[], _dateRange: DateRange): Insight[] => {
   // Since insights have string affected_period, return all insights for now
   // In a real implementation, you might parse the affected_period strings
   // and filter based on the date range
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  console.log('🔍 Filtering insights for date range:', dateRange.start, 'to', dateRange.end);
-  return insights || [];
+    return insights || [];
 };
 
 export const calculateKPIsForDateRange = (trends: TrendPoint[], dateRange: DateRange) => {
